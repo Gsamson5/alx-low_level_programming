@@ -5,7 +5,7 @@
  * @n: The number to be treated
  * Return: Number matrix
  */
-void print_times_table(int n)
+void print_times_table(int 2)
 {
 	int x, y, z;
 
