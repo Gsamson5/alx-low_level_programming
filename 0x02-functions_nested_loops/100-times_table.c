@@ -5,9 +5,9 @@
  * @n: The number to be treated
  * Return: Number matrix
  */
-void print_times_table(int 2)
+void print_times_table(void)
 {
-	int x, y, z;
+	int n, x, y, z;
 
 	if (n >= 0 && n <= 14)
 	{
