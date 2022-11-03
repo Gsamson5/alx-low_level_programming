@@ -1,4 +1,4 @@
-yinclude "main.h"
+#include "main.h"
 
 /**
  * wildcmp - Compare strings
