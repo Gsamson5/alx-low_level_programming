@@ -3,8 +3,7 @@
 
 /**
  * count_word - helper function to count the number of words in a string
- * @s: string to evaluate
- *
+ * @s: string to evaluat
  * Return: number of words
  */
 int count_word(char *s)
@@ -28,9 +27,8 @@ int count_word(char *s)
 	return (w);
 }
 /**
- * **strtow - splits a string into words
+ *strtow - splits a string into words
  * @str: string to split
- *
  * Return: pointer to an array of strings (Success)
  * or NULL (Error)
  */
@@ -68,7 +66,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
-			tart = i;
+			start = i;
 	}
 
 	matrix[k] = NULL;
